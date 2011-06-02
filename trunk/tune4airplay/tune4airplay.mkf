@@ -1,0 +1,50 @@
+includepaths
+{
+	"source"
+}
+
+files
+{
+	("source")
+	ChannelManager.cpp
+	ChannelManager.h
+	SampledEnvelope.cpp
+	SampledEnvelope.h
+	ResHandlerWAV.cpp
+	ResHandlerWAV.h
+	ResHandlerIT.cpp
+	ResHandlerIT.h
+	ResHandlerMOD.cpp
+	ResHandlerMOD.h
+	ResHandlerXM.cpp
+	ResHandlerXM.h
+	ResHandlerS3M.cpp
+	ResHandlerS3M.h
+	ResHandlerMID.cpp
+	ResHandlerMID.h
+	Command.cpp
+	Command.h
+	ISampler.cpp
+	ISampler.h
+	t4aTune.cpp
+	t4aTune.h
+	TuneChannel.cpp
+	TuneChannel.h
+	TuneMixer.cpp
+	TuneMixer.h
+	t4aSampleIT.cpp
+	t4aSampleIT.h
+	t4aInstrumentIT.cpp
+	t4aInstrumentIT.h
+	t4aPattern.cpp
+	t4aPattern.h
+	t4aMIDIStream.cpp
+	t4aMIDIStream.h 
+	PatternRow.cpp
+	PatternRow.h
+	Tune4Airplay.cpp
+	Tune4Airplay.h
+}
+subprojects
+{
+}

@@ -1,0 +1,8 @@
+CIwResGroup
+{
+	name "music"
+	"./sample_it.it"
+	"./drumkit.it"
+	#"./sample_s3m.s3m"
+	#"./sample_mod.mod"
+}

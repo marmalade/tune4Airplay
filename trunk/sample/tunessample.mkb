@@ -1,0 +1,49 @@
+#!/usr/bin/env i3d_make_build.py
+
+option 
+{
+	strict
+	s3e-data-dir="data" 
+}
+assets
+{
+	(./data-ram/data-gles1)
+	music.group.bin
+}
+files
+{
+	[Source]
+	(./source)
+	main.cpp
+
+	[Data]
+	(./data)
+	music.group
+
+	[Docs]
+	(../docs)
+	ITTECH.TXT
+	mod-form.txt
+	mod_format4.htm
+}
+deployments
+{
+	caption="tune4airplay sample"
+	assets=Default
+
+	assets=Default
+	provider="101gr.com"
+	version="0.1.0"
+	networking=0
+
+	iphone-appid=com.101gr.Tune4AirplaySample
+
+}
+subprojects
+{
+	derbh
+	iwgraphics
+	iwgx
+	iwutil
+	../tune4airplay
+}
